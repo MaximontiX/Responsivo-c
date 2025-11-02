@@ -15,6 +15,13 @@ body{
   left: 400px;
   margin-top: 100px;
 }
+
+.textos {
+  position: relative;
+  left: 600px;
+  color: rgb(255, 51, 15);
+}
+
 .contenedor{
   max-width: 1200px;
   margin: 0 auto;
@@ -44,4 +51,14 @@ body{
     .card {
       display: flex;
     }
+}
+
+@media print {
+ .title {
+  color: #37ff05;
+ }
+ .textos{
+  color: black;
+  font-size: 40px;
+ }
 }
