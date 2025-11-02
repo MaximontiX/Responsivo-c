@@ -1,27 +1,29 @@
-
 .container {
   display: flex;
   flex-direction: column;
   
 }
 
-.card {
-  background-color: lightblue;
+.card1 {
+  background-color: rgb(233, 3, 3);
   padding: 20px;
   border-radius: 10px;
   text-align: center;
 }
 
 .card2 {
-  background-color: rgb(51, 13, 189);
+  background-color: rgb(233, 3, 3);
   padding: 20px;
   border-radius: 10px;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 200px;
 }
 
-@media (min-width: 1024px) {
-  .card {
+@media (min-width: 768px) {
+  .card1,.card2 {
     background-color: lightgreen;
+  }
+  .card2 {
+    margin-top: 50px;
   }
 }
